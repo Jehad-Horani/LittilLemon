@@ -1,0 +1,79 @@
+.step1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+.radiobutten {
+
+    accent-color: #2f00ff;
+    font-size: xx-large;
+}
+
+.inputBox label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputBox input,
+.inputBox select,
+.inputBox textarea {
+    padding: 20px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #EDEFEE;
+    font-size: large;
+
+}
+
+.radioGroup {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.radioGroup label {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.specialRequest {
+    display: flex;
+    flex-direction: column;
+}
+
+.specialRequest textarea {
+    resize: none;
+    color: #000000;
+    background-color: #EDEFEE;
+    font-weight: bold;
+    font-size: large;
+
+}
+.error {
+  border: 2px solid red !important;
+  background-color: #ffecec !important;
+}
+
+/* ✅ ملاحظة نصية للخطأ (اختياري) */
+.errorText {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
