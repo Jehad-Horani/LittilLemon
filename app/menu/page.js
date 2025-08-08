@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import BreakfastBuffetSection from "../components/BreakfastBuffet";
 
 
 
@@ -293,7 +292,6 @@ export default function MenuPage() {
       <div className="container max-w-5xl mx-auto">
         <h1 className="text-4xl md:text-6xl px-4 font-bold text-center mb-8">قائمة الطعام | Menu</h1>
 
-      <BreakfastBuffetSection />
       <div className="px-4">
         <h1 className="text-2xl md:text-3xl px-4 font-bold text-center mb-2 mt-8"> :ابحث عن اي صنف تريده</h1>
 
